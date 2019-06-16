@@ -1,0 +1,5 @@
+com\xiaomin\springcloud\service\impl\DeptService.class
+com\xiaomin\springcloud\service\IDeptService.class
+com\xiaomin\springcloud\controller\DeptController.class
+com\xiaomin\springcloud\dao\DeptDao.class
+com\xiaomin\springcloud\DeptProvider8001_App.class

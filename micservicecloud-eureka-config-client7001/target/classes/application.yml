@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: micservicecloud-eureka-config-client

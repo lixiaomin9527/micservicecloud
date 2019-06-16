@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: micservicecloud-config-client #从git上获取资源名称
+      profile: uat
+      label: master
+      uri: http://localhost:3344 #3344ConfigServer获取配置

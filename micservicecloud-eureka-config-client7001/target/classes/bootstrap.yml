@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: micservicecloud-eureka-config-client
+      profile: uat
+      label: master
+      uri: http://localhost:3344/

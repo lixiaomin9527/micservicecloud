@@ -1,0 +1,20 @@
+server:
+  port: 9527
+  
+spring:
+  application:
+    name: micservicecloud-zuul-gateway
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: micservicecloud-zuul-gateway9527
+    prefer-ip-address: true
+    hostname: dev_zuul.com
+zuul:
+  ignored-services: "*" #忽略服务名称
+  routes:
+    one.serviceId: micservicecloud-dept
+    one.path: /mydept/**

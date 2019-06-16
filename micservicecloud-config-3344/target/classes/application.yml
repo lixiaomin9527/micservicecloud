@@ -1,0 +1,15 @@
+server:
+  port: 3344
+  
+spring:
+  application:
+    name: micservicecloud-config  
+  cloud:
+    config:
+      server:
+        git:
+          #uri: git@github.com:lixiaomin9527/micservicecloud-config.git
+          uri: https://github.com/lixiaomin9527/micservicecloud-config.git
+          username: lixiaomin04@qq.com
+          password: xiaomin@2019
+          

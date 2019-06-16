@@ -1,0 +1,4 @@
+com\xiaomin\springcloud\service\DeptHystrixService.class
+com\xiaomin\vo\Dept.class
+com\xiaomin\springcloud\service\DeptFeignService.class
+com\xiaomin\springcloud\service\DeptHystrixService$1.class
